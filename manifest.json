@@ -2,8 +2,8 @@
   "name": "service-example",
   "vendor": "vtex",
   "version": "0.2.0",
-  "title": "Service Example",
-  "description": "Reference app for VTEX IO Services",
+  "title": "Custom Vtex IO Service",
+  "description": "Custom Vtex IO Service for Hiring Coders 2021",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
   "dependencies": {},
@@ -28,6 +28,13 @@
     },
     {
       "name": "colossus-write-logs"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/*"
+      }
     }
   ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

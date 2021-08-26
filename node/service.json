@@ -9,6 +9,14 @@
     "status": {
       "path": "/_v/status/:code",
       "public": true
+    },
+    "products": {
+      "path": "/_v/products/ids/",
+      "public": true
+    },
+    "product": {
+      "path": "/_v/products/:code",
+      "public": true
     }
   }
 }
