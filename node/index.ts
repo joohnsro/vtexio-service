@@ -2,8 +2,8 @@ import type { ClientsConfig, ServiceContext, RecorderState } from '@vtex/api'
 import { method, Service } from '@vtex/api'
 
 import { Clients } from './clients'
-import { catalog } from './middlewares/catalog'
-import { catalogUniqueProduct } from './middlewares/catalogUniqueProduct'
+import { addLead } from './middlewares/addLead'
+import { leads } from './middlewares/leads'
 
 const TIMEOUT_MS = 800
 
@@ -34,11 +34,9 @@ declare global {
 export default new Service({
   clients,
   routes: {
-    products: method({
-      GET: [catalog]
-    }),
-    product: method({
-      GET: [catalogUniqueProduct]
+    leads: method({
+      GET: [leads],
+      POST: [addLead],
     }),
   },
 })

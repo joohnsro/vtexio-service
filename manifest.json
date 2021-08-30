@@ -19,7 +19,7 @@
     {
       "name": "outbound-access",
       "attrs": {
-        "host": "httpstat.us",
+        "host": "txkozo138c.execute-api.sa-east-1.amazonaws.com",
         "path": "*"
       }
     },
@@ -28,13 +28,6 @@
     },
     {
       "name": "colossus-write-logs"
-    },
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "portal.vtexcommercestable.com.br",
-        "path": "/api/*"
-      }
     }
   ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
