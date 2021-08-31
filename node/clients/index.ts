@@ -9,7 +9,7 @@ export class Clients extends IOClients {
     return this.getOrSet('leads', Leads)
   }
 
-  // public get catalog() {
-  //   return this.getOrSet('catalog', Catalog)
-  // }
+  public get leadEmail() {
+    return this.getOrSet('leads', Leads)
+  }
 }

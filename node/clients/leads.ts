@@ -4,7 +4,8 @@ import { ExternalClient } from '@vtex/api'
 export default class Leads extends ExternalClient {
 
   private routes = {
-    leads: '/UAT/data'
+    leads: '/UAT/data',
+    leadEmail: '/UAT/set-client'
   }
 
   constructor(context: IOContext, options?: InstanceOptions) {

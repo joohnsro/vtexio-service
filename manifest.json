@@ -19,6 +19,13 @@
     {
       "name": "outbound-access",
       "attrs": {
+        "host": "joohnsro--hiringcoders202107.myvtex.com",
+        "path": "*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
         "host": "txkozo138c.execute-api.sa-east-1.amazonaws.com",
         "path": "*"
       }

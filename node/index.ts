@@ -37,6 +37,6 @@ export default new Service({
     leads: method({
       GET: [leads],
       POST: [addLead],
-    }),
+    })
   },
 })
